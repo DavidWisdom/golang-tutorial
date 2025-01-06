@@ -24,8 +24,8 @@ jobs:
       - name: Print working directory
         run: pwd
 
-      - name: Change directory to tutorial/grammar
-        run: cd tutorial/grammar
+      - name: Change directory to ./tutorial/grammar
+        run: cd ./tutorial/grammar
 
       - name: List files in the directory
         run: ls -la
