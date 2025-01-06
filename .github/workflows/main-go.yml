@@ -30,6 +30,9 @@ jobs:
       - name: List files in the directory
         run: ls -la
 
+      - name: Install dependencies
+        run: go mod tidy
+
       - name: Run tests
         run: go test ./*_test.go
 
