@@ -28,6 +28,6 @@ jobs:
           cd ./tutorial/grammar
           ls -la
           go mod tidy
-          go test ./*_test.go
+          go test grammar
 
 
