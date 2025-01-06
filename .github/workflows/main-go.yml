@@ -24,11 +24,11 @@ jobs:
       - name: Print working directory
         run: pwd
 
-      - name: List files in the directory
-        run: ls -la
-
       - name: Change directory to tutorial/grammar
         run: cd tutorial/grammar
+
+      - name: List files in the directory
+        run: ls -la
 
       - name: Run tests
         run: go test ./*_test.go
